@@ -1,0 +1,5 @@
+{
+  "reviews": [],
+  "legacyReviews": [],
+  "_info": "Las reseñas reales se guardan en data/resenas.json. Solo se publican reseñas de compras entregadas; propietario y folio no se exponen en la API pública."
+}
