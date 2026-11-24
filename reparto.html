@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Tiza Food · Mi reparto</title>
+    <link rel="stylesheet" href="css/styles.css?v=20261103-handoff-codes" />
+  </head>
+  <body class="delivery-page">
+    <main class="delivery-card">
+      <p class="delivery-brand">Tiza Food · Reparto</p>
+      <h1 id="deliveryTitle">Preparando tu reparto…</h1>
+      <p id="deliveryAddress"></p>
+      <p id="deliveryStatus" role="status">Comprobando el enlace privado.</p>
+      <section id="riderPickup" class="delivery-code-card hidden">
+        <h2>Mi código de retiro</h2>
+        <strong id="riderPickupCode" class="handoff-code"></strong>
+        <p>
+          Muéstralo al empleado para retirar este pedido. Espera a que confirme
+          la salida antes de iniciar el recorrido.
+        </p>
+      </section>
+      <section id="riderArrival" class="delivery-code-card hidden">
+        <h2>Avísale al cliente</h2>
+        <p>
+          Avísale al cliente cuando estés afuera. Después, completa la entrega
+          con su código.
+        </p>
+        <button id="riderArrive" class="btn btn-ghost wide" type="button">
+          Ya llegué
+        </button>
+        <p id="riderArrivalMessage" role="status"></p>
+      </section>
+      <form id="riderDeliveryForm" class="staff-handoff-form hidden" novalidate>
+        <h2>Confirmar entrega al cliente</h2>
+        <p>
+          Después de entregar la comida, pide al cliente el código que aparece
+          en su pedido.
+        </p>
+        <label for="riderDeliveryCode">Código de entrega del cliente</label
+        ><input
+          id="riderDeliveryCode"
+          type="text"
+          inputmode="numeric"
+          pattern="[0-9]{4}"
+          maxlength="4"
+          autocomplete="off"
+          placeholder="4 dígitos"
+        /><button
+          id="riderConfirmDelivery"
+          class="btn btn-main wide"
+          type="submit"
+        >
+          Confirmar entrega con el código
+        </button>
+        <p id="riderCodeMessage" role="status"></p>
+      </form>
+      <p>
+        Comparte tu ubicación solo mientras entregas este pedido. Mantén esta
+        pantalla abierta; bloquear el celular puede interrumpir la señal.
+      </p>
+      <button
+        id="deliveryStart"
+        type="button"
+        class="btn btn-main wide"
+        disabled
+      >
+        Compartir mi ubicación</button
+      ><button
+        id="deliveryStop"
+        type="button"
+        class="btn btn-ghost wide"
+        disabled
+      >
+        Dejar de compartir</button
+      ><a
+        id="deliveryDirections"
+        class="btn btn-ghost wide hidden"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Cómo llegar a la entrega</a
+      >
+      <p id="deliveryError" class="error" role="alert"></p>
+      <p>
+        <a
+          class="privacy-settings-link"
+          href="privacidad.html"
+          target="_blank"
+          rel="noopener"
+          >Aviso de privacidad</a
+        >
+      </p>
+      <small
+        >El cliente verá el mapa al acercarte a unos 300 metros. La entrega solo
+        se completa al verificar el código que te da el cliente al recibir su
+        comida.</small
+      >
+    </main>
+    <script src="js/delivery-ui.js?v=20261113-delivery"></script>
+  </body>
+</html>

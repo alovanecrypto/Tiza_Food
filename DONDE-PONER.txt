@@ -1,0 +1,17 @@
+Corrección de API, correo y guardado de usuarios
+=============================================
+
+Ejecuta INICIAR-TIZA-FOOD.cmd desde esta carpeta. El navegador se abrirá en
+http://localhost:3000 cuando el servidor esté listo. Mantén abierta su ventana.
+
+- El registro y acceso de clientes comprueban Firebase desde la API del servidor.
+- Si el correo no está confirmado, se solicita automáticamente el enlace.
+- Si falla el envío, la pantalla informa del error y permite volver a intentarlo.
+- El perfil se conserva en data/usuarios.json incluso si falla el correo.
+- Las contraseñas y los tokens de Firebase no se guardan en ese JSON.
+- Las dos cuentas locales del personal conservan su acceso; sus perfiles también
+  se guardan en JSON al iniciar sesión con el servidor.
+
+Abrir index.html directamente solo permite la demostración en el navegador.
+Para verificar el correo y guardar los usuarios en JSON utiliza el iniciador.
+No es necesario copiar archivos sueltos ni reemplazar tus datos existentes.

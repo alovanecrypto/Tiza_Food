@@ -1,0 +1,12 @@
+{
+  "name": "tiza-food",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pedidos, seguimiento y reparto de Tiza Food.",
+  "engines": {
+    "node": ">=22 <25"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

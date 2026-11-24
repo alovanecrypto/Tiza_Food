@@ -1,0 +1,20 @@
+{
+  "name": "Tiza Food - Comida rápida",
+  "short_name": "Tiza Food",
+  "description": "Pedidos, seguimiento y reparto de Tiza Food.",
+  "lang": "es-MX",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fff8ed",
+  "theme_color": "#d62828",
+  "icons": [
+    {
+      "src": "/img/tiza-food-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

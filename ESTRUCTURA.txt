@@ -1,0 +1,46 @@
+Estructura del proyecto Tiza Food
+================================
+
+/
+  index.html              Página principal
+  server.js               Servidor Node para guardar en JSON
+  INICIAR-TIZA-FOOD.cmd   Arranque en Windows; abre localhost:3000
+  .gitignore
+
+  css/
+    styles.css
+
+  js/
+    app.js                Lógica principal (cliente)
+    help.js               Manual "?"
+    admin.js              Panel dueño/empleado
+    access.js             API de acceso (servidor)
+    management.js         Reglas de pedidos/reseñas
+    school-demo.js        Demo sin servidor (file://)
+    hours.js, privacy.js, notifications.js, postal-code.js
+    password-reset.js, panel-animations.js, legacy-accounts.js
+    staff-accounts.js
+    firebase-*.js
+
+  data/
+    db.example.json       Ejemplo de catálogo y reseñas
+    usuarios.example.json Ejemplo de usuarios (sin contraseñas)
+    db.json               Se crea al usar el servidor (pedidos + reseñas)
+    usuarios.json         Perfiles (rol, correo, dirección). Las CONTRASEÑAS
+                          solo viven en Firebase, nunca en este JSON.
+
+  audio/
+    Little-Things.mp3     Música de fondo
+    maliokart.mp3         Alternativa
+
+  img/
+    pedido-entregado.jpg  Imagen del chat al entregar
+
+  docs/
+    README.md, GUIA-FIREBASE.md, DEMO-ESCOLAR.md, ACCESOS.md, ...
+
+Notas de seguridad
+------------------
+- Las contraseñas se autentican solo con Firebase Authentication.
+- usuarios.json guarda perfil (nombre, correo, rol, dirección), no la contraseña.
+- Las reseñas se guardan en data/db.json (servidor) o en el navegador (demo local).

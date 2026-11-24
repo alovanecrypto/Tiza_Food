@@ -1,0 +1,17 @@
+services:
+  - type: web
+    runtime: node
+    name: tiza-food-alonllosorio
+    # Plan gratuito para la demostración escolar. Los archivos locales se
+    # reinician cuando Render vuelve a crear la instancia.
+    plan: free
+    buildCommand: "npm install --ignore-scripts"
+    startCommand: "npm start"
+    healthCheckPath: /api/health
+    envVars:
+      - key: TIZA_PUBLIC_ORIGIN
+        value: https://tiza-food-alonllosorio.onrender.com
+      # El dueño escribe su correo de Firebase directamente en Render.
+      # No se publica en GitHub y su contraseña nunca se almacena aquí.
+      - key: TIZA_OWNER_EMAIL
+        sync: false

@@ -1,0 +1,31 @@
+# Datos privados o generados por cada instalación
+/data/db.json
+/data/usuarios.json
+/data/resenas.json
+/data/reembolsos.json
+/data/staff.json
+/reembolsos.json
+/resenas.json
+/db.json
+/usuarios.json
+/ticket-*.html
+/ticket-*.pdf
+/tizafood-recuperacion*.txt
+*.tmp
+*.log
+.env
+.env.*
+!.env.example
+.vscode/
+docs/ACCESO-PERSONAL.md
+*-firebase-adminsdk-*.json
+*service-account*.json
+serviceAccount*.json
+node_modules/
+.DS_Store
+Thumbs.db
+# Archivos retirados de Authenticator
+/totp.js
+/two-step.js
+/vendor/
+/GUIA-AUTHENTICATOR.md
