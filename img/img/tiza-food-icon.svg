@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
-  <title>Tiza Food</title>
-  <rect width="512" height="512" rx="112" fill="#d62828"/>
-  <path d="M82 407c100-98 233-135 348-101" fill="none" stroke="#ffb703" stroke-width="22" stroke-linecap="round"/>
-  <circle cx="116" cy="392" r="15" fill="#ffb703"/>
-  <text x="256" y="292" text-anchor="middle" font-family="Arial, sans-serif" font-size="178" font-weight="800" fill="#fff">TF</text>
-</svg>
