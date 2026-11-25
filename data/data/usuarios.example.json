@@ -1,4 +1,0 @@
-{
-  "users": [],
-  "_info": "Este archivo es solo ejemplo. Los usuarios reales se guardan en data/usuarios.json al registrarse o iniciar sesión con el servidor (node server.js). Nunca se guardan contraseñas aquí; solo nombre, correo, rol y dirección."
-}
