@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "name": "celestino",
+      "username": "cel",
+      "email": "celestinoosorio186@gmail.com",
+      "addressParts": {
+        "street": "sur 7",
+        "houseNumber": "128",
+        "neighborhood": "Cuenca Lechera",
+        "municipality": "Tizayuca",
+        "state": "Hidalgo",
+        "postalCode": "43804"
+      },
+      "address": "sur 7 128, Cuenca Lechera, Tizayuca, Hidalgo, C.P. 43804",
+      "authProvider": "firebase",
+      "firebaseUid": "oS0vrnW8J1T0uZthkDQMR4mhbao2",
+      "role": "cliente",
+      "emailVerified": true
+    },
+    {
+      "name": "Cliente Prueba",
+      "username": "clienteprueba",
+      "email": "qa@example.invalid",
+      "addressParts": {
+        "street": "Calle de prueba",
+        "houseNumber": "1",
+        "neighborhood": "Tizayuca Centro",
+        "municipality": "Tizayuca",
+        "state": "Hidalgo",
+        "postalCode": "43800"
+      },
+      "address": "Calle de prueba 1, Tizayuca Centro, Tizayuca, Hidalgo, C.P. 43800",
+      "authProvider": "firebase",
+      "firebaseUid": "DqNOwGFAdkUh7TahOWHPJn11OzF3",
+      "role": "cliente",
+      "emailVerified": false
+    },
+    {
+      "name": "diego david",
+      "username": "didadgod",
+      "email": "didaosanvg@gmail.com",
+      "addressParts": {
+        "street": "cerrada de oceano pacifico",
+        "houseNumber": "316",
+        "neighborhood": "Los Héroes Tizayuca",
+        "municipality": "Tizayuca",
+        "state": "Hidalgo",
+        "postalCode": "43816"
+      },
+      "address": "cerrada de oceano pacifico 316, Los Héroes Tizayuca, Tizayuca, Hidalgo, C.P. 43816",
+      "authProvider": "firebase",
+      "firebaseUid": "MN1uoFox4cenu24R1swu9ihvQ3h2",
+      "role": "cliente",
+      "emailVerified": true,
+      "places": [
+        {
+          "label": "cerrada de oceano p…",
+          "text": "cerrada de oceano pacifico 316, Los Héroes Tizayuca, Tizayuca, Hidalgo, C.P. 43816",
+          "coords": null
+        }
+      ]
+    },
+    {
+      "name": "Dueño",
+      "email": "jorge.vera.vilchis@gmail.com",
+      "username": "jorge.vera.vilchis@gmail.com",
+      "role": "dueno",
+      "authProvider": "local-staff",
+      "firebaseUid": "local-staff-dueno"
+    },
+    {
+      "name": "Empleado",
+      "email": "empleado@tizafood.local",
+      "username": "empleado@tizafood.local",
+      "role": "empleado",
+      "authProvider": "local-staff",
+      "firebaseUid": "local-staff-empleado"
+    },
+    {
+      "name": "jorge lol",
+      "username": "jorge",
+      "email": "veravichisjorge@gmail.com",
+      "addressParts": {
+        "street": "avenida paseo  alboleras",
+        "houseNumber": "53",
+        "neighborhood": "El Cid",
+        "municipality": "Tizayuca",
+        "state": "Hidalgo",
+        "postalCode": "43810"
+      },
+      "address": "avenida paseo  alboleras 53, El Cid, Tizayuca, Hidalgo, C.P. 43810",
+      "authProvider": "firebase",
+      "firebaseUid": "wMLVUxSTjsgHopomZ1385rxuO2N2",
+      "role": "cliente",
+      "emailVerified": false
+    },
+    {
+      "name": "alon11osorio",
+      "username": "alon11osorio@gmail.com",
+      "address": "cuenca lechera sur 7",
+      "addressParts": null,
+      "email": "alon11osorio@gmail.com",
+      "authProvider": "firebase",
+      "firebaseUid": "SpGlCg9TDzfNziB8gi95ImIKhPo1",
+      "role": "cliente",
+      "emailVerified": true,
+      "places": [
+        {
+          "label": "Cuenca Lechera",
+          "text": "Cuenca Lechera, Tizayuca, Hidalgo, 43800, México",
+          "coords": "19.828661,-98.969200"
+        }
+      ]
+    }
+  ],
+  "_info": "Guardado de los usuarios "
+}
